@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number sorting (3 Task)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <a href="task3.html">Number sorting</a>
+    <a href="task4.html">Change BG</a>
+</nav>
+
+<div class="container">
+    <h1>Number Sorting Tool</h1>
+    <form id="numberForm">
+        <label for="numbers">Enter numbers (separated by commas):</label><br>
+        <input type="text" id="numbers" name="numbers" required><br><br>
+        <button type="button" onclick="sortNumbers('asc')">Sort Ascending</button>
+        <button type="button" onclick="sortNumbers('desc')">Sort Descending</button>
+    </form>
+    <p id="sortedResult"></p>
+</div>
+
+<script src="task3.js"></script>
+</body>
+</html>
